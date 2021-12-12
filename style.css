@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: fantasy;
+}
+
+.container{
+    max-width: 500px;
+    min-width: 300px;
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 4px solid rgb(61, 194, 228);
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+.form{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.form input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border: 2px solid rgb(61, 194, 228);
+    border-radius: 5px;
+    padding: 5px;
+}
+.list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.class-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    padding:10px;
+}
+.complated-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.btn-delete{
+    width: 17px;
+    height: 17px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    background-color: #fff;
+    color: red;
+}
+#btn{
+    display: none;
+}
+
+.left input{
+    margin-right: 8px;
+}
